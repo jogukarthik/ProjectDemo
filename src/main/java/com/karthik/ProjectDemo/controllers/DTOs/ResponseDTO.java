@@ -13,7 +13,6 @@ public class ResponseDTO {
     private ResponseDTO from(User user){
         ResponseDTO responseDTO=new ResponseDTO();
         responseDTO.setEmail(user.getEmail());
-        responseDTO.setName(user.getName());
         return responseDTO;
     }
 }
